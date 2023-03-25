@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content .brand{
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    min-width: 50px;
+    padding: 5px;
+    margin: 0 5px ;
+    background-color: #08f;
+}
